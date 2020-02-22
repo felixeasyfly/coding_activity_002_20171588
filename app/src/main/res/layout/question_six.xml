@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView_Q6"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="  Question 6"
+        android:textSize="36sp"
+        android:textColor="@color/colorPureblack" />
+
+    <TextView
+        android:id="@+id/textView_future"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="What function do you expect your \n phone to have in the future ?"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editText_future"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <TextView
+        android:id="@+id/textView_blank6"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn_Q6"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:onClick="NEXTBTNCLK_Q6"
+        android:text="NEXT" />
+</LinearLayout>

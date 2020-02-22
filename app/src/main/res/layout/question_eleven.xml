@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Q11"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="  Question 11"
+        android:textSize="36sp"
+        android:textColor="@color/colorPureblack" />
+
+    <TextView
+        android:id="@+id/textView_gender"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="What's your gender?"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioBtn_male"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_female"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Female" />
+
+        <TextView
+            android:id="@+id/textView_blank11"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <Button
+            android:id="@+id/btn_Q11"
+            android:layout_width="317dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:onClick="NEXTBTNCLK_Q11"
+            android:text="NEXT" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Question"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="  Question 1"
+        android:textColor="@color/colorPureblack"
+
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView_brand"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="Which brand of phone will you \n choose if you're going to buy \n a new one?"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioBtn_IPhone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="IPhone" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_Nokia"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nokia" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_Samsung"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Samsung" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_MI"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MI" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_Lenovo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lenovo" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_Sony"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sony" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_Others"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Others" />
+
+        <TextView
+            android:id="@+id/textView_blank1"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <Button
+            android:id="@+id/btn_Q1"
+            android:layout_width="317dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:onClick="NEXTBTNCLK_Q1"
+            android:text="NEXT" />
+
+    </RadioGroup>
+
+</LinearLayout>

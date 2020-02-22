@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Q12"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="  Question 12"
+        android:textColor="@color/colorPureblack"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView_salary"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="How much money do you earn \n per month?" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_nojob"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="I haven't got a Job" />
+
+        <RadioButton
+            android:id="@+id/rb_u3000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Under 3000" />
+
+        <RadioButton
+            android:id="@+id/rb_3000_5000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3000-5000" />
+
+        <RadioButton
+            android:id="@+id/rb_5000_10000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="5000-10000" />
+
+        <RadioButton
+            android:id="@+id/rb_bd10000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="More than 10000" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_blank12"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn_Q12"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:onClick="NEXTBTNCLK_Q12"
+        android:text="NEXT"
+        />
+</LinearLayout>

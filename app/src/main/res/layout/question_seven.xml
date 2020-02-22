@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Q7"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="  Question 7"
+        android:textSize="36sp"
+        android:textColor="@color/colorPureblack" />
+
+    <TextView
+        android:id="@+id/textView_condition"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="In which condition will you buy a \n new phone?"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_1_2y"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="When the old phone has been \n used for a year or two.(But it still \n works)" />
+
+        <RadioButton
+            android:id="@+id/rb_mt3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="When the old phone has been \n used for more than three years.\n(But it still works)" />
+
+        <RadioButton
+            android:id="@+id/rb_bd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="When the old phone breaks \n down." />
+
+        <RadioButton
+            android:id="@+id/rb_release"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="When a new phone is released." />
+
+        <RadioButton
+            android:id="@+id/rb_othercircumstances"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Others" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_blank7"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn_Q7"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:onClick="NEXTBTNCLK_Q7"
+        android:text="NEXT" />
+
+</LinearLayout>

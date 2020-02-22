@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView_Q5"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:textColor="@color/colorPureblack"
+        android:textSize="36sp"
+        android:text="  Question 5" />
+
+    <TextView
+        android:id="@+id/textView_mostuse"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="What functions are the most \n often used?"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_music2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Music Functions" />
+
+    <CheckBox
+        android:id="@+id/cb_photo2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Photo Functions" />
+
+    <CheckBox
+        android:id="@+id/cb_game2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Game Fuctions" />
+
+    <CheckBox
+        android:id="@+id/cb_business2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Business Functions(Word, Excel,etc.)" />
+
+    <CheckBox
+        android:id="@+id/cb_GPS2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GPS Functions" />
+
+    <CheckBox
+        android:id="@+id/cb_data2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Data Functions(Bluetooth,WLAN,etc.)" />
+
+    <CheckBox
+        android:id="@+id/cb_otherfunctions2"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Others" />
+
+    <TextView
+        android:id="@+id/textView_blank5"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn_Q5"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:onClick="NEXTBTNCLK_Q5"
+        android:text="NEXT" />
+
+</LinearLayout>

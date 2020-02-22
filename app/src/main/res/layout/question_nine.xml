@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Q9"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="  Question 9"
+        android:textSize="36sp"
+        android:textColor="@color/colorPureblack" />
+
+    <TextView
+        android:id="@+id/textView_characteristic"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="What characteristic do you think \n is the most important to value a \n phone?"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioBtn_appearance"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Appearance" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_price"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Price" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_performance"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Performance" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_othercharacteristics"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Others" />
+
+        <TextView
+            android:id="@+id/textView_blank9"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <Button
+            android:id="@+id/btn_Q9"
+            android:layout_width="317dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:onClick="NEXTBTNCLK_Q9"
+            android:text="NEXT" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Q3"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="  Question 3"
+        android:textSize="36sp"
+        android:textColor="@color/colorPureblack"/>
+
+    <TextView
+        android:id="@+id/textView_phonetype"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="What kind of phone are you \n using?" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_2G"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2G" />
+
+        <RadioButton
+            android:id="@+id/rb_3G"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3G" />
+
+        <RadioButton
+            android:id="@+id/rb_4G"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="4G" />
+
+        <RadioButton
+            android:id="@+id/rb_othertypes"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Others" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_blank3"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+
+    <Button
+        android:id="@+id/btn_Q3"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:text="NEXT"
+        android:background="@color/colorPrimary"
+        android:onClick="NEXTBTNCLK_Q3"
+        android:layout_gravity="center"/>
+</LinearLayout>
