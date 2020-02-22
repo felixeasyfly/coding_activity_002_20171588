@@ -38,6 +38,7 @@
         android:layout_below="@id/textView_takepartin"
         android:layout_centerHorizontal="true"
         android:background="@mipmap/img_1" />
+
     <Button
         android:id="@+id/btn_Finish"
         android:layout_width="317dp"
